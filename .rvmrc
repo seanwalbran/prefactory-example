@@ -1,1 +1,1 @@
-rvm use default@rails41simple --create
+rvm use default@prefactory-example --create
