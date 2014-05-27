@@ -1,13 +1,20 @@
 prefactory-example
 ==================
 
-Example rails application using [Prefactory](https://github.com/socialcast/prefactory) to accelerate spec execution time
+An example rails application using
+[Prefactory](https://github.com/socialcast/prefactory)
+to accelerate spec execution time.
 
 In this example, the FactoryGirl factory for creating a User has a
 synthetic 1 second latency injected per creation, to highlight the
 performance implications of repeat invocations of expensive factories
 and setup operation in specs, and the benefits of using Prefactory to
 mitigate those.
+
+
+### Diff showing the enabling and use of Prefactory in this example
+
+(Click to view diff)[https://github.com/seanwalbran/prefactory-example/compare/not-using-prefactory...master]
 
 ### Expected behavior without using the Prefactory gem
 
