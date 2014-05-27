@@ -14,7 +14,7 @@ mitigate those.
 
 ### Diff showing the enabling and use of Prefactory in this example
 
-[Click to view diff](https://github.com/seanwalbran/prefactory-example/compare/not-using-prefactory...master)
+[Click to view diff](https://github.com/seanwalbran/prefactory-example/commit/e2cef180c8e11c2f0bac583cd6185ede31d26910)
 
 ### Expected behavior without using the Prefactory gem
 
