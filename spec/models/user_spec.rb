@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe User do
 
-  let(:user) { create :user }
+  set!(:user)
 
   context 'a new user has no friends' do
 
@@ -10,10 +10,10 @@ describe User do
 
     context 'with a friend' do
 
-      let(:friend) { create :user }
-      let(:other_friend) { create :user }
+      set!(:friend) { create :user }
+      set!(:other_friend) { create :user }
 
-      before { user.add_friend(friend) }
+      before(:all) { user.add_friend(friend) }
 
       it { user.friends.count.should == 1 }
 

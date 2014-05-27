@@ -61,6 +61,10 @@ GEM
     minitest (5.3.4)
     multi_json (1.10.1)
     polyglot (0.3.4)
+    prefactory (0.2.0)
+      activerecord (~> 4)
+      factory_girl_rails (~> 4)
+      rspec_around_all (~> 0)
     rack (1.5.2)
     rack-test (0.6.2)
       rack (>= 1.0)
@@ -98,6 +102,8 @@ GEM
       rspec-core (~> 2.14.0)
       rspec-expectations (~> 2.14.0)
       rspec-mocks (~> 2.14.0)
+    rspec_around_all (0.1.1)
+      rspec (~> 2.0)
     sass (3.2.19)
     sass-rails (4.0.3)
       railties (>= 4.0.0, < 5.0)
@@ -141,6 +147,7 @@ DEPENDENCIES
   factory_girl_rails (~> 4)
   jbuilder (~> 2.0)
   jquery-rails
+  prefactory
   rails (= 4.1.1)
   rspec (>= 2.13.0)
   rspec-rails (>= 2.13.0)
